@@ -60,3 +60,7 @@ dpkg-reconfigure unattended-upgrades
 ## docker
 
 https://docs.docker.com/engine/install/debian/
+
+```
+sudo usermod -aG docker alice
+```
