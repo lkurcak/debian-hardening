@@ -64,3 +64,24 @@ https://docs.docker.com/engine/install/debian/
 ```
 sudo usermod -aG docker alice
 ```
+
+## bluetooth
+
+this is the opposite of hardening
+
+```
+sudo apt update
+sudo apt install bluez
+```
+
+```
+sudo systemctl enable --now bluetooth
+```
+
+```
+systemctl status bluetooth
+```
+
+```
+bluetoothctl list
+```
